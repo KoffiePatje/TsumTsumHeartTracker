@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+  <PreferenceCategory
+      android:title="Notification Improving"
+      android:key="preferences_notification_improvement">
+    <CheckBoxPreference
+      android:key="preferences_wifi_toggle_enabled"
+      android:title="Enable Wifi Toggling"
+      android:summary="Enables the WiFi toggle feature, to improve"
+      android:defaultValue="false" />
+    <nl.pleduc.TsumTsumHeartTracker.NumberPickerPreference
+      android:key="preferences_wifi_toggle_interval"
+      android:title="Interval"
+      android:summary="Interval at which the WiFi is toggled"
+      android:defaultValue="5"
+      custom:minValue="1"
+      custom:maxValue="100"/>
+  </PreferenceCategory>
+  <PreferenceCategory
+    android:title="Cloud Settings"
+    android:key="preferences_cloud_settings">
+    <EditTextPreference
+      android:key="preferences_cloud_appcode"
+      android:title="Appcode"
+      android:summary="Code that allows syncing with the online cloud platform"
+      android:defaultValue="none" />
+  </PreferenceCategory>
+</PreferenceScreen>

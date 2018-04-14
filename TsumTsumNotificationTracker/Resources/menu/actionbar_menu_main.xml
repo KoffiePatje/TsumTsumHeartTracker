@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/menu_search"
+      android:icon="@drawable/ic_menu_search_holo_dark"
+      android:showAsAction="collapseActionView|always"
+      android:actionViewClass="android.widget.SearchView"
+      android:title="Search" />
+  <item
+      android:id="@+id/menu_refresh"
+      android:icon="@drawable/ic_autorenew_white_48dp"
+      android:showAsAction="always"
+      android:title="Refresh" />
+  <item
+      android:id="@+id/menu_settings"
+      android:icon="@drawable/ic_settings_white_48dp"
+      android:showAsAction="always"
+      android:title="Settings" />
+  <!--<item
+       android:id="@+id/menu_edit"
+       android:icon="@drawable/ic_action_content_create"
+       android:showAsAction="ifRoom"
+       android:title="Edit" />
+  <item
+       android:id="@+id/menu_save"
+       android:icon="@drawable/ic_action_content_save"
+       android:showAsAction="ifRoom"
+       android:title="Save" />
+  <item
+       android:id="@+id/menu_preferences"
+       android:showAsAction="never"
+       android:title="Preferences" />-->
+  <item
+      android:id="@+id/menu_reset"
+      android:showAsAction="never"
+      android:title="Reset" />
+</menu>

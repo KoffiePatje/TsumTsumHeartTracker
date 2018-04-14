@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">TsumTsumHeartTracker</string>
+  <string name="ApplicationNameShort">TTHT</string>
+  <string name="sorting_prompt">Choose a sorting type</string>
+  <string-array name="sorting_types">
+    <item>Alphabetic</item>
+    <item>Heartcount</item>
+    <item>Time</item>
+  </string-array>
+</resources>
